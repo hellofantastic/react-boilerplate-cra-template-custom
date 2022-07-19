@@ -6,7 +6,7 @@
   <dt>Main Template</dt>
   <dd>store has added rootReducers and rootSagas files, reducer deos not use injnectReducer or injectSage</dd>
 
-    <dt>Internals</dt>
+  <dt>Internals</dt>
   <dd>The command line goodies for creating components  and slices have been updated to add the necessary changes to rootReducer and rootSaga</dd>
 </dl>
 </div>
