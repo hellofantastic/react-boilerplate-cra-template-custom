@@ -4,14 +4,14 @@
   "version": "1.2.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hellofantastic/react-boilerplate-cra-template.git"
+    "url": "https://github.com/hellofantastic/react-boilerplate-cra-template-custom.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=14.x"
   },
   "bugs": {
-    "url": "https://github.com/hellofantastic/react-boilerplate-cra-template/issues"
+    "url": "https://github.com/hellofantastic/react-boilerplate-cra-template-custom/issues"
   },
   "main": "template.json",
   "files": [
@@ -56,7 +56,7 @@
     "create:npm-package": "ts-node ./internals/scripts/create-npm-package.script.ts",
     "create:cra-app": "ts-node ./internals/scripts/create-cra-app.script.ts",
     "// ---PUBLISHING---": "",
-    "publish:github": "cross-env PUBLIC_URL='/react-boilerplate-cra-template' yarn build && gh-pages -d build",
+    "publish:github": "cross-env PUBLIC_URL='/react-boilerplate-cra-template-custom' yarn build && gh-pages -d build",
     "changelog": "ts-node ./internals/scripts/create-changelog.script.ts",
     "release": "standard-version",
     "publish:npm": "yarn run create:npm-package && yarn publish .cra-template-rb-custom --non-interactive"
