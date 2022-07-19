@@ -2,7 +2,7 @@
 <strong>THIS IS A FORK AND IS CUSTOMIZED TO NOT USE INJECTREDUCERS</strong>
 <br />
 
-## Features
+## Edits so far
 
 <dl>
   <dt>Main Template</dt>
