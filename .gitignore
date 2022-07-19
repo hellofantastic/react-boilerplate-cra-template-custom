@@ -18,6 +18,6 @@ yarn-error.log*
 
 # boilerplate internals
 generated-cra-app
-.cra-template-rb
+.cra-template-rb-custom
 template
 .eslintcache

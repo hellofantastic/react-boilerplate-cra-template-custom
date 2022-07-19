@@ -1,17 +1,17 @@
 {
-  "name": "cra-template-rb",
+  "name": "cra-template-rb-custom",
   "description": "The official React Boilerplate template for Create React App",
   "version": "1.2.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-boilerplate/react-boilerplate-cra-template.git"
+    "url": "https://github.com/hellofantastic/react-boilerplate-cra-template.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=14.x"
   },
   "bugs": {
-    "url": "https://github.com/react-boilerplate/react-boilerplate-cra-template/issues"
+    "url": "https://github.com/hellofantastic/react-boilerplate-cra-template/issues"
   },
   "main": "template.json",
   "files": [
@@ -59,7 +59,7 @@
     "publish:github": "cross-env PUBLIC_URL='/react-boilerplate-cra-template' yarn build && gh-pages -d build",
     "changelog": "ts-node ./internals/scripts/create-changelog.script.ts",
     "release": "standard-version",
-    "publish:npm": "yarn run create:npm-package && yarn publish .cra-template-rb --non-interactive"
+    "publish:npm": "yarn run create:npm-package && yarn publish .cra-template-rb-custom --non-interactive"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
@@ -105,7 +105,16 @@
     "redux-saga": "1.1.3",
     "sanitize.css": "13.0.0",
     "styled-components": "5.3.3",
-    "web-vitals": "2.1.2"
+    "web-vitals": "2.1.2",
+
+    "atomic-layout": "0.16.2",
+    "framer-motion": "6.2.8",
+    "luxon": "2.3.0",
+    "react-icons": "4.3.1",
+    "react-select": "5.2.2",
+    "@tanstack/react-table": "8.2.6",
+    "simplebar-react": "2.3.6",
+    "uuid": "8.3.2"
   },
   "devDependencies": {
     "@commitlint/cli": "13.1.0",

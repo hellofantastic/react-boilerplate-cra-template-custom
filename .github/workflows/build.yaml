@@ -19,8 +19,8 @@ jobs:
       - name: Upload template
         uses: actions/upload-artifact@v1
         with:
-          name: cra-template-rb
-          path: .cra-template-rb
+          name: cra-template-rb-custom
+          path: .cra-template-rb-custom
   
   createAndTestCRA:
     needs: createNpmPackage
@@ -33,10 +33,10 @@ jobs:
       - name: Download template
         uses: actions/download-artifact@v1
         with:
-          name: cra-template-rb
-          path: ../cra-template-rb # Put into the upper folder. create-react-app wants the current directory empty
+          name: cra-template-rb-custom
+          path: ../cra-template-rb-custom # Put into the upper folder. create-react-app wants the current directory empty
       - name: Create CRA from downloaded template
-        run: yarn create react-app --template file:../cra-template-rb .
+        run: yarn create react-app --template file:../cra-template-rb-custom .
       - run: yarn run build
       - run: yarn run test:generators
       - run: yarn run lint
@@ -61,9 +61,9 @@ jobs:
       - name: Download template
         uses: actions/download-artifact@v1
         with:
-          name: cra-template-rb
-          path: ../cra-template-rb # Put into the upper folder. create-react-app wants the current directory empty
+          name: cra-template-rb-custom
+          path: ../cra-template-rb-custom # Put into the upper folder. create-react-app wants the current directory empty
       - name: Create CRA from downloaded template
-        run: yarn create react-app --template file:../cra-template-rb .
+        run: yarn create react-app --template file:../cra-template-rb-custom .
       - run: yarn run build
       - run: yarn run test

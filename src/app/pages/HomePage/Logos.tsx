@@ -1,15 +1,11 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { ReactComponent as CRALogo } from './assets/cra-logo.svg';
-import { ReactComponent as RPLogo } from './assets/rp-logo.svg';
-import { ReactComponent as PlusSign } from './assets/plus-sign.svg';
+import { ReactComponent as LoomLogo } from './assets/loominance-logo.svg';
 
 export function Logos() {
   return (
     <Wrapper>
-      <CRALogo className="logo" />
-      <PlusSign className="sign" />
-      <RPLogo className="logo" />
+      <LoomLogo className="logo" />
     </Wrapper>
   );
 }

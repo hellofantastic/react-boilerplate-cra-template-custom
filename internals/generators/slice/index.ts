@@ -23,7 +23,10 @@ export const rootStatePath = path.join(
   __dirname,
   '../../../src/types/RootState.ts',
 );
-
+export const rootReducerPath = path.join(
+  __dirname,
+  '../../../src/store/rootReducer.ts',
+);
 export const sliceGenerator: PlopGeneratorConfig = {
   description: 'Add a redux toolkit slice',
   prompts: [
@@ -85,6 +88,20 @@ export const sliceGenerator: PlopGeneratorConfig = {
       path: `${rootStatePath}`,
       pattern: new RegExp(/.*\/\/.*\[INSERT NEW REDUCER KEY ABOVE\].+\n/),
       templateFile: './slice/appendRootState.hbs',
+      abortOnFail: true,
+    });
+    actions.push({
+      type: 'modify',
+      path: `${rootReducerPath}`,
+      pattern: new RegExp(/.*\/\/.*\[IMPORT NEW CONTAINERSTATE ABOVE\].+\n/),
+      templateFile: './slice/importRootReducer.hbs',
+      abortOnFail: true,
+    });
+    actions.push({
+      type: 'modify',
+      path: `${rootReducerPath}`,
+      pattern: new RegExp(/.*\/\/.*\[INSERT NEW REDUCER KEY ABOVE\].+\n/),
+      templateFile: './slice/appendRootReducer.hbs',
       abortOnFail: true,
     });
     if (answers.wantSaga) {

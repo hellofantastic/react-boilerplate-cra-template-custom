@@ -5,7 +5,7 @@ import {
 } from './create-template-folder';
 import { shellEnableAbortOnFail, shellDisableAbortOnFail } from './utils';
 
-const packageFolder = '.cra-template-rb';
+const packageFolder = '.cra-template-rb-custom';
 interface Options {}
 
 export function createNpmPackage(opts: Options = {}) {

@@ -9,20 +9,20 @@ with a focus on
 <br />
 
 <div align="center">
-  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%3Abuild">
-    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/build/badge.svg" alt="Build Status" />
+  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/actions?query=workflow%3Abuild">
+    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/workflows/build/badge.svg" alt="Build Status" />
   </a>
-  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%3Atests">
-    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/test/badge.svg" alt="Tests Status" />
+  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/actions?query=workflow%3Atests">
+    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/workflows/test/badge.svg" alt="Tests Status" />
   </a>
-  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%release">
-    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/release/badge.svg" alt="Release Status" />
+  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/actions?query=workflow%release">
+    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/workflows/release/badge.svg" alt="Release Status" />
   </a>
 </div>
 
 <div align="center">
-  <a href="https://coveralls.io/github/react-boilerplate/react-boilerplate-cra-template">
-    <img src="https://coveralls.io/repos/github/react-boilerplate/react-boilerplate-cra-template/badge.svg?branch=master" alt="Coverage" />
+  <a href="https://coveralls.io/github/react-boilerplate/react-boilerplate-cra-template-custom">
+    <img src="https://coveralls.io/repos/github/react-boilerplate/react-boilerplate-cra-template-custom/badge.svg?branch=master" alt="Coverage" />
   </a>
   <a href="https://opencollective.com/react-boilerplate">
     <img src="https://opencollective.com/react-boilerplate/backers/badge.svg" alt="Backers" />
@@ -40,16 +40,16 @@ The official [Create React App](https://github.com/facebook/create-react-app) te
 
 Start your `create-react-app` projects in seconds with the best, industry-standard tools and practices made ready for you.
 
-**📚 Documentation:** [Gitbook](https://cansahin.gitbook.io/react-boilerplate-cra-template/)
+**📚 Documentation:** [Gitbook](https://cansahin.gitbook.io/react-boilerplate-cra-template-custom/)
 
-**🎨 Check the example app:** [Demonstrating the features](https://react-boilerplate.github.io/react-boilerplate-cra-template/)
+**🎨 Check the example app:** [Demonstrating the features](https://react-boilerplate.github.io/react-boilerplate-cra-template-custom/)
 
-**📂 Browse in VS Code:** [![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/react-boilerplate/react-boilerplate-cra-template)
+**📂 Browse in VS Code:** [![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/react-boilerplate/react-boilerplate-cra-template-custom)
 
-**📦 Package:** [npm](https://www.npmjs.com/package/cra-template-rb)
+**📦 Package:** [npm](https://www.npmjs.com/package/cra-template-rb-custom)
 
-![version](https://img.shields.io/npm/v/cra-template-rb)
-![version](https://img.shields.io/npm/dm/cra-template-rb)
+![version](https://img.shields.io/npm/v/cra-template-rb-custom)
+![version](https://img.shields.io/npm/dm/cra-template-rb-custom)
 
 ---
 
@@ -60,7 +60,7 @@ Start your `create-react-app` projects in seconds with the best, industry-standa
 Create React App with the template
 
 ```shell
-yarn create react-app --template cra-template-rb my-app
+yarn create react-app --template cra-template-rb-custom my-app
 ```
 
 Start and check our example app, if you want
@@ -131,11 +131,11 @@ But wait... there's more!
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Can-Sahin"><img src="https://avatars2.githubusercontent.com/u/33245689?s=80" width="80px;" alt=""/><br /><sub><b>Can Sahin</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=Can-Sahin" title="Code">💻</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=Can-Sahin" title="Documentation">📖</a> <a href="#ideas-Can-Sahin" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/pulls?q=is%3Apr+reviewed-by%3ACan-Sahin" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=Can-Sahin" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/receptiryaki"><img src="https://avatars0.githubusercontent.com/u/3495307?s=80" width="80px;" alt=""/><br /><sub><b>Recep Tiryaki</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=receptiryaki" title="Code">💻</a> <a href="#ideas-receptiryaki" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-receptiryaki" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/mogsdad"><img src="https://avatars3.githubusercontent.com/u/1707731?s=80" width="80px;" alt=""/><br /><sub><b>David Bingham</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=mogsdad" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/lourensdev"><img src="https://avatars.githubusercontent.com/u/5746141?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Lourens de Villiers</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=lourensdev" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/rejochandran"><img src="https://avatars.githubusercontent.com/u/4696985?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Rejo Chandran</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=rejochandran" title="Code">💻</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=rejochandran" title="Documentation">📖</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=rejochandran" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/Can-Sahin"><img src="https://avatars2.githubusercontent.com/u/33245689?s=80" width="80px;" alt=""/><br /><sub><b>Can Sahin</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/commits?author=Can-Sahin" title="Code">💻</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/commits?author=Can-Sahin" title="Documentation">📖</a> <a href="#ideas-Can-Sahin" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/pulls?q=is%3Apr+reviewed-by%3ACan-Sahin" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/commits?author=Can-Sahin" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/receptiryaki"><img src="https://avatars0.githubusercontent.com/u/3495307?s=80" width="80px;" alt=""/><br /><sub><b>Recep Tiryaki</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/commits?author=receptiryaki" title="Code">💻</a> <a href="#ideas-receptiryaki" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-receptiryaki" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/mogsdad"><img src="https://avatars3.githubusercontent.com/u/1707731?s=80" width="80px;" alt=""/><br /><sub><b>David Bingham</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/commits?author=mogsdad" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/lourensdev"><img src="https://avatars.githubusercontent.com/u/5746141?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Lourens de Villiers</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/commits?author=lourensdev" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/rejochandran"><img src="https://avatars.githubusercontent.com/u/4696985?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Rejo Chandran</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/commits?author=rejochandran" title="Code">💻</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/commits?author=rejochandran" title="Documentation">📖</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template-custom/commits?author=rejochandran" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
