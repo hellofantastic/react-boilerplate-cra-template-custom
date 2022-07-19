@@ -22,7 +22,7 @@ In the following sections, we will briefly introduce this boilerplate to you and
 
 {% hint style="info" %}
 
-Source Code & Repo: [Github](https://github.com/react-boilerplate/react-boilerplate-cra-template-custom)
+Source Code & Repo: [Github](https://github.com/react-boilerplate/react-boilerplate-cra-template)
 
 NPM Package: [npm](https://www.npmjs.com/package/cra-template-rb-custom)
 

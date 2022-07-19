@@ -1,7 +1,20 @@
+<div>
+<strong>THIS IS A FORK AND IS CUSTOMIZED TO NOT USE INJECTREDUCERS</strong>
+<br />
+## EDITS
+<dl>
+  <dt>Main Template</dt>
+  <dd>store has added rootReducers and rootSagas files, reducer deos not use injnectReducer or injectSage</dd>
+
+    <dt>Internals</dt>
+  <dd>The command line goodies for creating components  and slices have been updated to add the necessary changes to rootReducer and rootSaga</dd>
+</dl>
+</div>
+
 <img width="914" alt="React Boilerplate Meets CRA" src="https://user-images.githubusercontent.com/3495307/80274591-2d5daa00-86e4-11ea-8fba-404f1cdba87e.png" align="center">
 <br />
 
-<strong>THIS IS A FORK AND IS CUSTOMIZED TO NOT USE injectReducers</strong>
+
 
 <div align="center" >Crafted for <strong>highly scalable</strong> & <strong>performant</strong> and <strong>easily maintainable</strong> React.js applications <br /> 
 with a focus on  
