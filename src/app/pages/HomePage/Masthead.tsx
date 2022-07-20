@@ -4,15 +4,12 @@ import { Logos } from './Logos';
 import { Title } from './components/Title';
 import { Lead } from './components/Lead';
 
-
 export function Masthead() {
   return (
     <Wrapper>
       <Logos />
       <Title>Custom Boilerplate App</Title>
-      <Lead>
-       Remove this most likley and start developing
-      </Lead>
+      <Lead>Remove this most likley and start developing</Lead>
     </Wrapper>
   );
 }

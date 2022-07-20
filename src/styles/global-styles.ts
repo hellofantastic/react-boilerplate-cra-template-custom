@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     background: ${p => p.theme.background};
     background: linear-gradient(320deg, rgba(255,255,255,1) 0%, #f9f9f5 40%, rgba(255,255,255,1) 100%);
-    color: ${p => p.theme.colors.text};
+    color: ${p => p.theme.text};
     line-height: 1.3;
 
     background-size: cover;

@@ -1,34 +1,48 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<App /> should render and match the snapshot 1`] = `
-<BrowserRouter>
-  <Helmet
-    defaultTitle="React Boilerplate"
-    defer={true}
-    encodeSpecialCharacters={true}
-    htmlAttributes={
-      Object {
-        "lang": "en-US",
-      }
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "minHeight": "100vh",
     }
-    prioritizeSeoTags={false}
-    titleTemplate="%s - React Boilerplate"
-  >
-    <meta
-      content="A React Boilerplate application"
-      name="description"
-    />
-  </Helmet>
-  <Switch>
-    <Route
-      component={[Function]}
-      exact={true}
-      path="/"
-    />
-    <Route
-      component={[Function]}
-    />
-  </Switch>
-  <Memo(l) />
-</BrowserRouter>
+  }
+>
+  <BrowserRouter>
+    <Helmet
+      defaultTitle="Loominance Application"
+      defer={true}
+      encodeSpecialCharacters={true}
+      htmlAttributes={
+        Object {
+          "lang": "en-US",
+        }
+      }
+      prioritizeSeoTags={false}
+      titleTemplate="Loominance App"
+    >
+      <meta
+        content="Foundation app"
+        name="description"
+      />
+    </Helmet>
+    <Routes>
+      <Route
+        element={<Unknown />}
+        path="/sign-in"
+      />
+      <Route
+        element={<Unknown />}
+        path="/"
+      />
+      <Route
+        element={<Unknown />}
+        path="*"
+      />
+    </Routes>
+    <Memo(l) />
+  </BrowserRouter>
+</div>
 `;

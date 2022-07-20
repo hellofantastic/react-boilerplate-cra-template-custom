@@ -4,8 +4,7 @@ import { Title } from '../components/Title';
 import { Lead } from '../components/Lead';
 import { SubTitle } from '../components/SubTitle';
 import { P } from '../components/P';
-import { A } from 'app/components/A';
-import { GithubRepoForm } from './GithubRepoForm';
+//import { A } from 'app/components/A';
 import { ThemeSwitch } from './ThemeSwitch';
 import { LanguageSwitch } from './LanguageSwitch';
 import { ReactComponent as StateIcon } from './assets/state.svg';
@@ -38,30 +37,7 @@ export function Features() {
           <StateIcon className="feature-icon" />
           <Content>
             <SubTitle>Predictable State</SubTitle>
-            <P>
-              Build easy to test and debug, flexible and extensible applications
-              using{' '}
-              <A
-                href="https://redux.js.org/basics/usage-with-react"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Redux
-              </A>
-              . Unidirectional data flow allows for change logging and time
-              travel debugging.{' '}
-              <A
-                href="https://github.com/zalmoxisus/redux-devtools-extension"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Install Chrome Redux Dev Tools
-              </A>{' '}
-              to see how your application's state changes and travel in time to
-              debug. Type any github username below and see it in action with
-              Redux Dev Tools.
-            </P>
-            <GithubRepoForm />
+            <P>Starter app forked from template rb</P>
           </Content>
         </Feature>
         <Feature>

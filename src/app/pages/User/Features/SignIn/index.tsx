@@ -133,7 +133,7 @@ const Label = styled.label`
 const Button = styled.button`
   border: 0;
   padding: 9px 15px;
-  background: ${p => p.theme.colors.text};
+  background: ${p => p.theme.text};
   background: linear-gradient(45deg, #eb6472, #f63a7a);
   color: #fff;
   display: block;

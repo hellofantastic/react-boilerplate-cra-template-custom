@@ -27,6 +27,10 @@ export const rootReducerPath = path.join(
   __dirname,
   '../../../src/store/rootReducer.ts',
 );
+export const rootSagaPath = path.join(
+  __dirname,
+  '../../../src/store/rootSagas.ts',
+);
 export const sliceGenerator: PlopGeneratorConfig = {
   description: 'Add a redux toolkit slice',
   prompts: [
@@ -93,7 +97,7 @@ export const sliceGenerator: PlopGeneratorConfig = {
     actions.push({
       type: 'modify',
       path: `${rootReducerPath}`,
-      pattern: new RegExp(/.*\/\/.*\[IMPORT NEW CONTAINERSTATE ABOVE\].+\n/),
+      pattern: new RegExp(/.*\/\/.*\[IMPORT NEW REDUCER ABOVE\].+\n/),
       templateFile: './slice/importRootReducer.hbs',
       abortOnFail: true,
     });
@@ -110,6 +114,18 @@ export const sliceGenerator: PlopGeneratorConfig = {
         path: `${slicePath}/saga.ts`,
         templateFile: './slice/saga.ts.hbs',
         abortOnFail: true,
+      });
+      actions.push({
+        type: 'modify',
+        path: `${rootSagaPath}`,
+        pattern: new RegExp(/.*\/\/.*\[IMPORT NEW SAGA ABOVE\].+\n/),
+        templateFile: './slice/importRootSaga.hbs',
+      });
+      actions.push({
+        type: 'modify',
+        path: `${rootSagaPath}`,
+        pattern: new RegExp(/.*\/\/.*\[INSERT NEW SAGA GENERATOR ABOVE\].+\n/),
+        templateFile: './slice/appendRootSaga.hbs',
       });
     }
 
