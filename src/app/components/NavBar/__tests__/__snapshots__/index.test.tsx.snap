@@ -3,7 +3,7 @@
 exports[`<NavBar /> should match snapshot 1`] = `
 <NavBar__Wrapper>
   <PageWrapper>
-    <Logo />
+    <AppSampleName />
     <Nav />
   </PageWrapper>
 </NavBar__Wrapper>

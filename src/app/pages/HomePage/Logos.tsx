@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { ReactComponent as LoomLogo } from './assets/loominance-logo.svg';
+import { ReactComponent as LoomLogo } from 'app/assets/images/loominance-logo-dark.svg';
 
 export function Logos() {
   return (

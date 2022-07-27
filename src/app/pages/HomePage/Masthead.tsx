@@ -1,13 +1,13 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { Logos } from './Logos';
+import { Logo } from 'app/components/Logo';
 import { Title } from './components/Title';
 import { Lead } from './components/Lead';
 
 export function Masthead() {
   return (
     <Wrapper>
-      <Logos />
+      <Logo />
       <Title>Custom Boilerplate App</Title>
       <Lead>Remove this most likley and start developing</Lead>
     </Wrapper>

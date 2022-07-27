@@ -10,7 +10,8 @@ import { selectUser } from '../../slice/selectors';
 import H1 from 'app/components/H1';
 import { LoomCredit } from 'app/components/LoomCredit';
 import { LoadingIndicator } from 'app/components/LoadingIndicator';
-import Logo from 'app/assets/images/loominance-logo-dark.png';
+
+import { Logo } from 'app/components/Logo';
 //Signin form
 export function SignIn() {
   const [apiErrors, setApiErrors] = useState('');
@@ -59,8 +60,8 @@ export function SignIn() {
         }}
       >
         <BrandContainer>
-          <H1 textAlign="center">Burst</H1>
-          <img src={Logo} alt="Loominance Inc." />
+          <H1 textAlign="center">App Sign in Page</H1>
+          <Logo title="Loominance Inc." />
         </BrandContainer>
         <div
           style={{
