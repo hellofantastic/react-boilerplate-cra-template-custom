@@ -118,7 +118,7 @@ export const sliceGenerator: PlopGeneratorConfig = {
       actions.push({
         type: 'modify',
         path: `${rootSagaPath}`,
-        pattern: new RegExp(/.*\/\/.*\[IMPORT NEW SAGA ABOVE\].+\n/),
+        pattern: new RegExp(/.*\/\/.*\[IMPORT NEW SAGA GENERATOR ABOVE\].+\n/),
         templateFile: './slice/importRootSaga.hbs',
       });
       actions.push({
