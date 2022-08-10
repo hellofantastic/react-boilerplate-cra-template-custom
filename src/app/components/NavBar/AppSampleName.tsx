@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 export function AppSampleName() {
   return (
     <Wrapper>
-      <Title>Loominance</Title>
+      <Title>Project Name</Title>
       <Description>Boilerplate Startup Application</Description>
     </Wrapper>
   );

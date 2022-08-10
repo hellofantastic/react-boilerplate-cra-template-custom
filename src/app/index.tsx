@@ -29,8 +29,8 @@ export function App() {
     <div style={wrapper as React.CSSProperties}>
       <BrowserRouter>
         <Helmet
-          titleTemplate="Loominance App"
-          defaultTitle="Loominance Application"
+          titleTemplate="Default App"
+          defaultTitle="Your Project"
           htmlAttributes={{ lang: i18n.language }}
         >
           <meta name="description" content="Foundation app" />

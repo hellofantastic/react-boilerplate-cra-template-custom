@@ -26,12 +26,9 @@ export function* signInUser(action) {
 
     console.log('response', response);
 
-    if (response.body && response.body.loomToken) {
-      //response.body.loomToken
-      sessionStorage.setItem(
-        'loom_at',
-        'eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsb29taW5hbmNlLmNvbSIsInN1YiI6Imxvb21jbGkiLCJleHAiOjE2ODcwMzUxOTQsInJvbGVzIjoiYWRtaW4ifQ.ZidvD0Qis1AdQqTtQRqGJBziA48saVZ9hEfXnrKcVyU',
-      );
+    if (response.body && response.body.token) {
+      //response.body.token
+      sessionStorage.setItem('your-token', response.body.token);
 
       yield put(
         actions.signInSuccess({

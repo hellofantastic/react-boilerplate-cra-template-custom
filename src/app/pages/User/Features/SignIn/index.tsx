@@ -60,8 +60,8 @@ export function SignIn() {
         }}
       >
         <BrandContainer>
-          <H1 textAlign="center">App Sign in Page</H1>
-          <Logo title="Loominance Inc." />
+          <H1 textAlign="center">Sign in Page</H1>
+          <Logo title="Your Project" />
         </BrandContainer>
         <div
           style={{
@@ -156,7 +156,7 @@ const BrandContainer = styled.div`
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   > img {
     height: 30px;
     margin-left: 15px;
